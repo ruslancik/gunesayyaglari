@@ -1,0 +1,14 @@
+{
+  "name": "gunesayyaglari",
+  "version": "1.0.0",
+  "description": "gunesayyaglari",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Ruslan Bairamovi",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  }
+}
