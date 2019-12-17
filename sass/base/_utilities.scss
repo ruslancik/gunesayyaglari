@@ -1,0 +1,12 @@
+.heading-1 {
+    text-align: center;
+    letter-spacing:1rem;
+    margin: 1rem 0;
+    padding: 3rem 0;
+    transition:  all .3s;
+    font-weight: bold;
+
+    &:hover {
+        text-shadow: 0 0 20px rgba(19, 18, 18, 0.877);
+            }
+}

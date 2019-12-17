@@ -83,3 +83,15 @@
   color: $dark-green;
 
 }
+
+.img-fluid {
+    height: auto;
+    width: 50%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.card {
+  border: none;
+}

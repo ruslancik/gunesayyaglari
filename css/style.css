@@ -52,6 +52,16 @@ body {
     #container {
       width: 100%; } }
 
+.heading-1 {
+  text-align: center;
+  letter-spacing: 1rem;
+  margin: 1rem 0;
+  padding: 3rem 0;
+  transition: all .3s;
+  font-weight: bold; }
+  .heading-1:hover {
+    text-shadow: 0 0 20px rgba(19, 18, 18, 0.877); }
+
 .btn-container {
   height: 100%;
   width: 100%;
@@ -91,7 +101,7 @@ body {
   z-index: -1; }
 
 .btn-yellow:hover {
-  color: black; }
+  color: #000; }
 
 .btn-yellow:hover span {
   transform: translateY(0) scale(2); }
@@ -173,6 +183,16 @@ body {
   content: '<';
   font-size: 55px;
   color: #2c7873; }
+
+.img-fluid {
+  height: auto;
+  width: 50%;
+  text-align: center;
+  display: block;
+  margin: 0 auto; }
+
+.card {
+  border: none; }
 
 .portfolio-experiment {
   background: transparent; }
