@@ -1,12 +1,15 @@
 .heading-1 {
     text-align: center;
     letter-spacing:1rem;
-    margin: 1rem 0;
+    margin: 1rem 0 1rem 5rem;
     padding: 3rem 0;
     transition:  all .3s;
     font-weight: bold;
+    border-left: 3px solid $dark-green;
 
     &:hover {
-        text-shadow: 0 0 20px rgba(19, 18, 18, 0.877);
-            }
+        transform: scale(1.04) translateY(-5px);
+    }
 }
+
+

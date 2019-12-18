@@ -83,8 +83,8 @@
             </div>
     </header>
     <!-- ABOUT US -->
+    <h1 class="heading-1">HAKKIMIZDA</h1 class="heading-1">
     <div id="container" class="section-features">
-        <h1 class="heading-1">HAKKIMIZDA</h1 class="heading-1">
 <div class="row">
     <div class="cardic">
         <div class="col-1-of-2">
@@ -142,7 +142,7 @@
         <div class="cardic">
             <div class="col-1-of-2">
                 <div class="cardic-image">
-                        <img src="img/about-3.jpg" alt="girl doing yoga">
+                        <img src="img/about-3.jpeg" alt="girl doing yoga">
                 </div>
             </div>
             <div class="col-1-of-2">
@@ -204,8 +204,74 @@
                 </div>
         </div>
     </div>
+        <!-- İletişim 
+        <div class="section-contact">
+            <h1 class="heading-1">İLETİŞİM</h1>
+            <div class="row">
+                <div class="col-1-of-2">
+                    contact form
+                </div>
+                <div class="col-1-of-2">
+                    <div class="adress">
+                        <div id="map" class="adress-map"></div>
+                        <div class="adress-content">
+                            <span class="adress-content_item"><i class="fas fa-map-marker-alt"></i>Veliköy mah. Kuzu Çeşme cad. No: 3 Veliköy / Tekirdağ</span>
+                            <span class="adress-content_item"><i class="fas fa-phone"></i>0282 606 03 10</span>
+                            <span class="adress-content_item"><i class="fas fa-envelope"></i>info@gunesaycicekyagi.com</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+    -->
+        <div class="section-contact">
+            <h2 class="heading-1">İLETİŞİM</h2>
+
+                <div class="v-contact">
+                <div class="contact-background">
+                    <video autoplay loop>
+                            <source src="./img/video-2.mp4" type="video/mp4">
+                            <source src="./img/video-2.webm" type="video/webm">
+                            Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <div class="contact-overlay">   
+
+                    <div class="col-1-of-2">
+                        <div class="book">
+                            <div class="book__form">
+                                <form action="#" class="form">
+                                    
+                                    <div class="form__group">
+                                        <input type="text" class="form__input u-margin-bottom-small" id="name" placeholder="Ad, Soyad" required>
+                                        <label for="name" class="form__label">Ad, Soyad</label>
+                                    </div>
+                                    <div class="form__group">
+                                            <input type="email" class="form__input" id="email" placeholder="Email adres" required>
+                                            <label for="email" class="form__label">Email adres</label>
+                                    </div>
+                                    <div class="form__group">
+                                            <textarea type="text" rows ="6" class="form__textarea" id="textarea" placeholder="Bize mesajınız.." required></textarea>
+                                    </div>
+                                    <div class="btn-container animated fadeInUp">
+                                        <a class="btn-yellow" id="btn-form">Gönder
+                                        <span></span><span></span><span></span><span></span>
+                                          </a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCajvWLTFA3xUKmuMatx55F-hfzPnm9MfA&callback=initMap"></script>
     <script src="js/carousel.js"></script>
+    <script src="js/maps.js"></script>
 </body>
 </html>
