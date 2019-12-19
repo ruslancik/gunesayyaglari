@@ -16,7 +16,7 @@
     <!-- NAVBAR -->
     
     <!-- HEADER -->
-    <header class="v-header">
+    <header class="v-header" id="main">
             <div class="fullscreen-video-wrap">
                 <video autoplay loop muted>
                         <source src="./img/video.mp4" type="video/mp4">
@@ -26,19 +26,24 @@
             </div>
             <!-- Mobile Hamburger -->
             <nav class="mobile-nav">
+                <div class="sticky">
                 <div id="menuToggle">
                  <input type="checkbox" />
-              
+                    
                   <span></span>
                   <span></span>
                   <span></span>
                   <ul id="menu">
-                    <a href="#"><li>Ana Sayfa</li></a>
-                    <a href="#"><li>Hakkımızda</li></a>
-                    <a href="#"><li>Ürünler</li></a>
-                    <a href="#"><li>İletişim</li></a>
+                    <a href="#main"><li>Ana Sayfa</li></a>
+                    <a href="#about"><li>Hakkımızda</li></a>
+                    <a href="#product"><li>Ürünler</li></a>
+                    <a href="#contact"><li>İletişim</li></a>
                   </ul>
                 </div>
+                <a href="#main">
+                    <img src="img/logo12.png" alt="GunesAy Logo">
+                </a>
+            </div>
               </nav>
               <!-- Mobile Hamburger end -->
             <div class="header-overlay">
@@ -47,7 +52,7 @@
                     <img src="./img/logo12.png" alt="GunesAy Logo">
                     <ul class="navbar-links">
                         <li class="navbar-links_item portfolio-experiment">
-                            <a href="#">
+                            <a href="#main">
                                 <span class="text">ANA sayfa</span>
                                 <span class="line -right"></span>
                                 <span class="line -top"></span>
@@ -57,7 +62,7 @@
                             </a>
                         </li>
                         <li class="navbar-links_item portfolio-experiment">
-                            <a href="#">
+                            <a href="#about">
                                 <span class="text">HAKKIMIZDA</span>
                                 <span class="line -right"></span>
                                 <span class="line -top"></span>
@@ -67,7 +72,7 @@
                             </a>
                         </li>
                         <li class="navbar-links_item portfolio-experiment">
-                            <a href="#">
+                            <a href="#product">
                                 <span class="text">ÜRÜNLER</span>
                                 <span class="line -right"></span>
                                 <span class="line -top"></span>
@@ -77,7 +82,7 @@
                             </a>
                         </li>
                         <li class="navbar-links_item portfolio-experiment">
-                            <a href="#">
+                            <a href="#contact">
                                 <span class="text">İLETİŞİM</span>
                                 <span class="line -right"></span>
                                 <span class="line -top"></span>
@@ -101,8 +106,8 @@
             </div>
     </header>
     <!-- ABOUT US -->
-    <h1 class="heading-1">HAKKIMIZDA</h1 class="heading-1">
-    <div id="container" class="section-features">
+    <h1 class="heading-1" id="about">HAKKIMIZDA</h1 class="heading-1">
+    <div id="container" class="section-features" >
 <div class="row">
     <div class="cardic">
         <div class="col-1-of-2">
@@ -183,7 +188,7 @@
     </div>
 </div>
 <!-- Section Product -->
-    <div class="section-product">
+    <div class="section-product" id="product">
         <h1 class="heading-1">ÜRÜNLER</h1>
             <div class="container-fluid">
                 <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
@@ -223,7 +228,7 @@
         </div>
     </div>
 <!-- İletişim -->
-<div class="section-contact">
+<div class="section-contact" id="contact">
     <h2 class="heading-1">İLETİŞİM</h2>
 
         <div class="v-contact">
@@ -274,10 +279,10 @@
                     <h3 class="heading-3">Linkler</h3>
                     <div class="footer-nav">
                         <ul>
-                            <li class="footer-nav_link"><a href="#">ANA SAYFA</a></li>
-                            <li class="footer-nav_link"><a href="#">HAKKIMIZDA</a></li>
-                            <li class="footer-nav_link"><a href="#">ÜRÜNLER</a></li>
-                            <li class="footer-nav_link"><a href="#">İLETİŞİM</a></li>
+                            <li class="footer-nav_link"><a href="#main">ANA SAYFA</a></li>
+                            <li class="footer-nav_link"><a href="#about">HAKKIMIZDA</a></li>
+                            <li class="footer-nav_link"><a href="#product">ÜRÜNLER</a></li>
+                            <li class="footer-nav_link"><a href="#contact">İLETİŞİM</a></li>
                         </ul>
                     </div>
                 </div>
@@ -302,11 +307,13 @@
                     </div>
                 </div>
                 <div class="col-1-of-4">
-                    <img src="img/logo.jpeg" alt="GüneşAy Logo" class="footer-img">
+                    <a href="#main">
+                        <img src="img/logo.jpeg" alt="GüneşAy Logo" class="footer-img">
+                    </a>
                     <div class="copyright">
                         <p>	Copyright &copy; 2020 GüneşAy</p>
                         <p>All rights reserved.</p>
-                        <p>Powered by <span>Ubden</span></p>
+                        <p>Powered by <span class="ubden"><a href="https://www.ubden.com/" target="_blank">Ubden</a></span></p>
                     </div>
                 </div>
         </footer>
