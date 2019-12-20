@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="dist/style.css">
     <title>GüneşAy</title>
 </head>
 
@@ -121,7 +121,7 @@
     <div class="cardic">
         <div class="col-1-of-2">
             <div class="cardic-image">
-                    <img  src="img/about-1.jpg" alt="ayçiçek yağı">
+                    <img class="wow fadeInLeft" src="img/about-1.jpg" alt="ayçiçek yağı">
             </div>
 
         </div>
@@ -164,7 +164,7 @@
             </div>
             <div class="col-1-of-2">
                 <div class="cardic-image">
-                    <img src="img/about-2.jpeg" alt="ayçiçek yağı">
+                    <img class="wow fadeInRight" src="img/about-2.jpeg" alt="ayçiçek yağı">
                 </div>
             </div>
     </div>
@@ -174,7 +174,7 @@
         <div class="cardic">
             <div class="col-1-of-2">
                 <div class="cardic-image">
-                        <img src="img/about-3.jpeg" alt="ayçiçek yağı">
+                        <img class="wow fadeInLeft" src="img/about-3.jpeg" alt="ayçiçek yağı">
                 </div>
             </div>
             <div class="col-1-of-2">
@@ -253,7 +253,7 @@
                 <div class="col-1-of-2">
                     <div class="book">
                         <div class="book__form">
-                            <form action="#" class="form">
+                            <form action="#" class="form wow pulse">
 
                                 <div class="form__group">
                                     <input type="text" class="form__input u-margin-bottom-small" id="name" placeholder="Ad, Soyad" required>
@@ -325,10 +325,14 @@
                 </div>
             </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha256-z6FznuNG1jo9PP3/jBjL6P3tvLMtSwiVAowZPOgo56U=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCajvWLTFA3xUKmuMatx55F-hfzPnm9MfA&callback=initMap"></script>
     <script src="js/carousel.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 
 </html>
