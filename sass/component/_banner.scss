@@ -1,0 +1,58 @@
+.banner {
+  grid-column: 1 / -1;
+  grid-row: 1 / span 1;
+  justify-self: start;
+  align-self: end;
+  margin-bottom: 4.8rem;
+
+  &-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.2rem;
+    line-height: 150%;
+    color: #042560;
+    opacity: 0.75;
+    margin-bottom: 1.6rem;
+  }
+
+  &-info { 
+      width: 167%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    
+
+    &_text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.6rem;
+        line-height: 150%;
+        color: #042560;
+        opacity: 0.5
+    }
+
+    &_selector {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 27.6rem;
+        height: 4.8rem;
+        background: #FFF;
+        border-radius: .8rem;
+        cursor: pointer;
+        
+
+        span {
+            font-family: DM Sans;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 1.4rem;
+            line-height: 150%;
+            color: #042560;
+            opacity: 0.3;
+        }
+
+    }
+  }
+}

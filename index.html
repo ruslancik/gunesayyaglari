@@ -7,334 +7,71 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" integrity="sha256-PHcOkPmOshsMBC+vtJdVr5Mwb7r0LkSVJPlPrp/IMpU=" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="dist/style.css">
-    <title>GÜNEŞAY</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Suallar</title>
 </head>
 
 <body>
-    <!-- NAVBAR -->
+    <!-- Navbar -->
+    <div class="nav-container">
 
-    <!-- HEADER -->
-    <header class="v-header" id="main">
-        <div class="fullscreen-video-wrap">
-            <video autoplay loop muted>
-                <source src="./img/video.mp4" type="video/mp4">
-                <source src="./img/video.webm" type="video/webm"> Your browser does not support the video tag.
-            </video>
-        </div>
-        <!-- Mobile Hamburger -->
-        <nav class="mobile-nav">
-            <div class="sticky">
-                <div id="menuToggle">
-                    <input type="checkbox" />
-
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <ul id="menu">
-                        <a href="#main">
-                            <li>Ana Sayfa</li>
-                        </a>
-                        <a href="#about">
-                            <li>Hakkımızda</li>
-                        </a>
-                        <a href="#product">
-                            <li>Ürünler</li>
-                        </a>
-                        <a href="#contact">
-                            <li>İletişim</li>
-                        </a>
+        <nav class="navbar">
+            <div class="logo-container">
+                    <img src="./img/logo.svg" alt="logo" class="logo-img">
+                </div>
+                
+                <div class="navlist">
+                    <ul class="navlist-container">
+                        <li class="navlist-item"> <a href="#">Ümumi </a></li>
+                        <li class="navlist-item"> <a href="#">Nəticələrim </a></li>
+                        <li class="navlist-item"> <a href="#">Uğurlarım </a></li>
+                        <li class="navlist-item"> <a href="#">Olimpiada </a></li>
                     </ul>
                 </div>
-                <a href="#main">
-                    <img src="img/logo12.png" alt="GunesAy Logo">
-                </a>
-            </div>
-        </nav>
-        <!-- Mobile Hamburger end -->
-        <div class="header-overlay">
-            <nav class="navbar">
-
-                <img src="./img/logo12.png" alt="GunesAy Logo">
-                <ul class="navbar-links">
-                    <li class="navbar-links_item portfolio-experiment">
-                        <a href="#main">
-                            <span class="text">ANA sayfa</span>
-                            <span class="line -right"></span>
-                            <span class="line -top"></span>
-                            <span class="line -left"></span>
-                            <span class="line -bottom"></span>
-
-                        </a>
-                    </li>
-                    <li class="navbar-links_item portfolio-experiment">
-                        <a href="#about">
-                            <span class="text">HAKKIMIZDA</span>
-                            <span class="line -right"></span>
-                            <span class="line -top"></span>
-                            <span class="line -left"></span>
-                            <span class="line -bottom"></span>
-
-                        </a>
-                    </li>
-                    <li class="navbar-links_item portfolio-experiment">
-                        <a href="#product">
-                            <span class="text">ÜRÜNLER</span>
-                            <span class="line -right"></span>
-                            <span class="line -top"></span>
-                            <span class="line -left"></span>
-                            <span class="line -bottom"></span>
-
-                        </a>
-                    </li>
-                    <li class="navbar-links_item portfolio-experiment">
-                        <a href="#contact">
-                            <span class="text">İLETİŞİM</span>
-                            <span class="line -right"></span>
-                            <span class="line -top"></span>
-                            <span class="line -left"></span>
-                            <span class="line -bottom"></span>
-
-                        </a>
-                    </li>
-
-                </ul>
+                <div class="user">
+                    <img src="./img/user-image.png" alt="user image" class="user-img">
+                    <span class="user-name">Adil Huseynli</span>
+                    <span class="user-arr"></span>
+                </div>
             </nav>
         </div>
-        <div class="header-content">
-            <h1 class="animated fadeInLeft">Ayçiçeğinin</h1>
-            <p class="animated fadeInRight">altın çağı başlıyor</p>
-            <div class="btn-container animated fadeInUp">
-                <a class="btn-yellow" href="#about">Daha fazla
-                            <span></span><span></span><span></span><span></span>
-                              </a>
+    
+    <main class="container">
+        <div class="banner">
+            <p class="banner-text">Nəticələrim</p>
+            <div class="banner-info">
+                <span class="banner-info_text">Burada verdiyin bütün imtahanların nəticələri göstərilir</span>
+                <p class="banner-info_selector">
+                    <span id="exam" class="selector">Sınaqlar</span>
+                    <span>|</span>
+                    <span id="lesson" class="selector">Fənnlər üzrə</span>
+                </p>
             </div>
         </div>
-    </header>
-    <!-- ABOUT US -->
-    <h1 class="heading-1" id="about">HAKKIMIZDA</h1 class="heading-1">
-    <div id="container" class="section-features" >
-<div class="row">
-    <div class="cardic">
-        <div class="col-1-of-2">
-            <div class="cardic-image">
-                    <img class="wow fadeInLeft" src="img/about-1.jpg" alt="ayçiçek yağı">
+        <div id='result' class="result">
+            <div class="filter-list">
+                <ul>
+                    <li class='filter'>NƏTİCƏ<span class="filter-arr"></span></li>
+                    <li>SINAĞIN NÖVÜ</li>
+                    <li class="filter">MÜDDƏT<span class="filter-arr"></span></li>
+                    <li class="filter">TARİX<span class="filter-arr"></span></li>
+                    <li>BAX</li>
+                </ul>
             </div>
-
+            <!-- <div class="result-list">
+               <ul>
+                   <li>481 bal</li>
+                   <li> II qrup</li>
+                   <li>48 dəqiqə</li>
+                   <li>22 iyul 2020, 17:30</li>
+                   <li>Cavab kartına bax</li>
+               </ul> 
+           </div> -->
         </div>
-        <div class="col-1-of-2">
-                <div class="cardic-content ">
-                    <h2 class="heading-2">FABRİKAMIZ</h2>
-                    <p>Bitkisel sıvı yağ üretiminde sektörün öncü firmalarından biri olma yolunda ilerleyen
-                        Güneş Ayçiçek Yağı 3 katlı toplam 2500 m2 alana
-                        sahip entegre bir üretim tesisine dönüşmüştür.
-                        <br/>
-                        <br/>
-                        2019 üretime başlayan fabrikamız 75 ton/gün yağ işleme kapasitesi ile Tekirdağ / Veliköy’de kurulmuştur.
-                        <br/>
-                        <br/>
-                        Güneş Ayçiçek Yağı bugün Türkiye’nin önde gelen üreticisinden biri olarak anılmaktadır.</p>
-                </div>
-        </div>
-    </div>
-</div>
+    </main>
 
-<div class="row">
-
-    <div class="cardic cardic__reverse">
-
-            <div class="col-1-of-2">
-                    <div class="cardic-content ">
-                        <h2 class="heading-2">KALİTE VE GIDA GÜVENLİĞİMİZ</h2>
-                        <p>Güneş Ayçiçek Yağı her zaman müşteri ihtiyaç ve beklentilerini esas alarak girdi,
-                            proses ve çıktılarda bir defa da ve daima doğru ilkesine uygun olarak faaliyetlerini
-                            yürütür.
-                            <br/>
-                            <br/>
-                            Üst yönetimin koyduğu hedeflerle eğitim, ürün güvenirliği, temizlik, hijyen ve çalışma ortamı
-                            iyileştirmesi gibi konuları temel felsefe edinerek nihai olarak müşteri memnuniyetini hedefler.
-                            <br/>
-                            <br/>
-                            Kuruluşumuz kalite ve gıda güvenliği projelerinin uygulanmasında ulusal ve uluslararası
-                            standartlara uymayı taahhüt eder.</p>
-                    </div>
-            </div>
-            <div class="col-1-of-2">
-                <div class="cardic-image">
-                    <img class="wow fadeInRight" src="img/about-2.jpeg" alt="ayçiçek yağı">
-                </div>
-            </div>
-    </div>
-</div>
-
-    <div class="row">
-        <div class="cardic">
-            <div class="col-1-of-2">
-                <div class="cardic-image">
-                        <img class="wow fadeInLeft" src="img/about-3.jpeg" alt="ayçiçek yağı">
-                </div>
-            </div>
-            <div class="col-1-of-2">
-                <div class="cardic-content ">
-                    <h2 class="heading-2">ÇEVRE POLİTİKAMIZ</h2>
-                    <p>Firmamız olarak hizmetlerimizden kaynaklı katı atıklarımızı en uygun şekilde
-                        bertaraf etmek ve her zaman çevreye ve insana saygı duyarak çevreye rahatsızlık
-                        vermeden sürekli ve sürdürülebilir kalkınma prensibiyle siz müşterilerimize hizmet vermek,
-                        <br/>
-                        <br/>
-                        Mevcut yasal yönetmelik ve mevzuatlara uyarak çalışmak çevre politikamızdır.
-                        <br/>
-                        <br/>
-                        Yüksek kalite standartları ile lezzet geleneğini bir araya getiren birleşmenin
-                        bir sonucu olarak, Güneş Ayçiçek Yağı dün olduğu gibi bugün de sofralara lezzet katmaya devam edecek…
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Section Product -->
-    <div class="section-product" id="product">
-        <h1 class="heading-1">ÜRÜNLER</h1>
-    <div class="container-fluid">
-        <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
-            <div class="carousel-inner row w-100 mx-auto">
-                <div class="carousel-item col-md-4 active">
-                    <div class="card">
-                        <img class="card-img-top img-fluid" src="img/product-2.jpg" alt="Card image cap">
-                    </div>
-                </div>
-                <div class="carousel-item col-md-4">
-                    <div class="card">
-                        <img class="card-img-top img-fluid" src="img/product-1.jpg" alt="Card image cap">
-
-                    </div>
-                </div>
-                <div class="carousel-item col-md-4">
-                    <div class="card">
-                        <img class="card-img-top img-fluid" src="img/product-2.jpg" alt="Card image cap">
-                    </div>
-                </div>
-                <div class="carousel-item col-md-4">
-                    <div class="card">
-                        <img class="card-img-top img-fluid" src="img/product-1.jpg" alt="Card image cap">
-
-                    </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon primary" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-    </div>
-    </div>
-    <!-- İletişim -->
-    <div class="section-contact" id="contact">
-        <h2 class="heading-1">İLETİŞİM</h2>
-
-        <div class="v-contact">
-            <div class="contact-background">
-                <video autoplay loop muted>
-                    <source src="./img/video-2.mp4" type="video/mp4">
-                    <source src="./img/video-2.webm" type="video/webm"> Your browser does not support the video tag.
-                </video>
-            </div>
-
-            <div class="contact-overlay">
-
-                <div class="col-1-of-2">
-                    <div class="book">
-                        <div class="book__form">
-                            <form action="#" class="form wow pulse">
-
-                                <div class="form__group">
-                                    <input type="text" class="form__input u-margin-bottom-small" id="name" placeholder="Ad, Soyad" required>
-                                    <label for="name" class="form__label">Ad, Soyad</label>
-                                </div>
-                                <div class="form__group">
-                                    <input type="email" class="form__input" id="email" placeholder="Email adres" required>
-                                    <label for="email" class="form__label">Email adres</label>
-                                </div>
-                                <div class="form__group">
-                                    <textarea type="text" rows="6" class="form__textarea" id="textarea" placeholder="Bize mesajınız.." required></textarea>
-                                </div>
-                                <div class="btn-container animated fadeInUp">
-                                    <a class="btn-yellow" id="btn-form">Gönder
-                                <span></span><span></span><span></span><span></span>
-                                    </a>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Footer -->
-
-    <footer class="section-footer">
-        <div class="row">
-            <div class="col-1-of-4">
-                <h3 class="heading-3">Linkler</h3>
-                <div class="footer-nav">
-                    <ul>
-                        <li class="footer-nav_link"><a href="#main">ANA SAYFA</a></li>
-                        <li class="footer-nav_link"><a href="#about">HAKKIMIZDA</a></li>
-                        <li class="footer-nav_link"><a href="#product">ÜRÜNLER</a></li>
-                        <li class="footer-nav_link"><a href="#contact">İLETİŞİM</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-1-of-4">
-                <h3 class="heading-3">Adres</h3>
-                <div class="adress-content">
-                    <ul>
-                        <li class="adress-content_item"><i class="fas fa-map-marker-alt"></i>Veliköy mah. Kuzu Çeşme cad. No: 3 Veliköy / Tekirdağ</li>
-                        <li class="adress-content_item"><i class="fas fa-phone"></i>0282 606 03 10</li>
-                        <li class="adress-content_item"><i class="fas fa-envelope"></i>info@gunesaycicekyagi.com</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-1-of-4">
-                <h3 class="heading-3">Social media</h3>
-                <div class="footer-social">
-                    <ul>
-                        <li class="footer-social_link"> <a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li class="footer-social_link"> <a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li class="footer-social_link"> <a href="#"><i class="fab fa-instagram"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-1-of-4">
-                <a href="#main">
-                    <img src="img/logo.jpeg" alt="GüneşAy Logo" class="footer-img">
-                </a>
-                <div class="copyright">
-                    <p> Copyright &copy; 2020 GÜNEŞAY</p>
-                    <p>All rights reserved.</p>
-                    <p class="ubden-cont">Powered by <span class="ubden"><a href="https://www.ubden.com/" target="_blank">Ubden</a></span></p>
-                </div>
-            </div>
-    </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha256-z6FznuNG1jo9PP3/jBjL6P3tvLMtSwiVAowZPOgo56U=" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCajvWLTFA3xUKmuMatx55F-hfzPnm9MfA&callback=initMap"></script>
-    <script src="js/carousel.js"></script>
-    <script>
-        new WOW().init();
-    </script>
+    <script src="./js//index.js"></script>
 </body>
 
 </html>

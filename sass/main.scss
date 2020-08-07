@@ -1,18 +1,10 @@
 @import "abstracts/mixins";
 @import "abstracts/variables";
 
+@import"component/banner";
+@import"component/navbar";
+@import"component/result";
+
 @import "base/base";
 @import "base/utilities";
-
-@import "component/button";
-@import "component/carousel";
-@import "component/hamburger";
-@import "component/link";
-@import "component/navbar";
-@import "component/video";
-
-@import "layout/about";
-@import "layout/contact";
-@import "layout/footer";
-@import "layout/grid";
 

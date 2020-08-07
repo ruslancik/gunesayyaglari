@@ -1,7 +1,7 @@
 {
-  "name": "gunesayyaglari",
+  "name": "suallar",
   "version": "1.0.0",
-  "description": "gunesayyaglari",
+  "description": "suallar",
   "main": "index.js",
   "scripts": {
     "sass": "node-sass sass/main.scss css/style.css -w"

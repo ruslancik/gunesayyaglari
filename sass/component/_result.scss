@@ -1,0 +1,108 @@
+.result {
+  grid-column: 1/-1;
+  grid-row: 2 / span 1;
+
+  .filter-list {
+    margin-left: 3.2rem;
+    margin-bottom: 1.6rem;
+    ul {
+      list-style: none;
+
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+      &:nth-child(1) {
+        grid-column: 1 / span 1;
+      }
+      &:nth-child(2) {
+        grid-column: 2 / span 1;
+      }
+      &:nth-child(3) {
+        grid-column: 3 / span 1;
+      }
+      &:nth-child(4) {
+        grid-column: 4 / span 1;
+      }
+
+      li {
+        display: inline-block;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.4rem;
+        line-height: 150%;
+        color: #042560;
+        opacity: 0.75;
+        text-transform: uppercase;
+        cursor: pointer;
+        text-align: left;
+
+        .filter-arr {
+          display: inline-block;
+          background: url(../../img/arrow-down.svg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          width: 0.9rem;
+          height: 0.5rem;
+          margin-left: 1.2rem;
+        }
+      }
+    }
+  }
+
+  .result-list {
+    margin-bottom: 1.6rem;
+
+    height: 9.6rem;
+    background: white;
+    border-radius: 0.8rem;
+
+    ul {
+      list-style: none;
+      display: grid;
+      height: 100%;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      align-content: center;
+      justify-items: start;
+      padding-left: 3rem;
+
+      &:nth-child(1) {
+        grid-column: 1 / span 1;
+      }
+      &:nth-child(2) {
+        grid-column: 2 / span 1;
+      }
+      &:nth-child(3) {
+        grid-column: 3 / span 1;
+      }
+      &:nth-child(4) {
+        grid-column: 4 / span 1;
+      }
+      &:nth-child(5) {
+        grid-column: 5 / span 1;
+      }
+
+      li {
+        display: inline-block;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.6rem;
+        line-height: 150%;
+        color: #042560;
+        opacity: 0.75;
+        text-align: left;
+
+        &:last-child {
+          background: rgba(62, 122, 255, 0.1);
+          border-radius: 1.6rem;
+          color: #3e7aff;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 1.4rem;
+          line-height: 150%;
+          padding: 0.6rem 1.6rem;
+        }
+      }
+    }
+  }
+}
